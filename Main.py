@@ -27,6 +27,7 @@ with st.sidebar:
 
 if side_menu=='Home':
     try:
+          st.write('Young Stroke Service Data Converter')
           df1 = log.translate_patient_log()
           patient_data = data.translate_patient_data()
           if patient_data:
